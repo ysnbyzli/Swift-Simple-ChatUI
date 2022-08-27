@@ -11,7 +11,6 @@
 		4CC48BB928B20FC50044C977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BB828B20FC50044C977 /* ContentView.swift */; };
 		4CC48BBB28B20FC70044C977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC48BBA28B20FC70044C977 /* Assets.xcassets */; };
 		4CC48BBE28B20FC70044C977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC48BBD28B20FC70044C977 /* Preview Assets.xcassets */; };
-		4CC48BCA28B211A40044C977 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BC928B211A30044C977 /* SettingsView.swift */; };
 		4CC48BCC28B211B00044C977 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BCB28B211B00044C977 /* ContactsView.swift */; };
 		4CC48BCE28B211BD0044C977 /* CallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BCD28B211BD0044C977 /* CallsView.swift */; };
 		4CC48BD028B211C50044C977 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BCF28B211C50044C977 /* ChatsView.swift */; };
@@ -19,6 +18,9 @@
 		4CC48BD428B2195F0044C977 /* OnlineUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BD328B2195F0044C977 /* OnlineUsersView.swift */; };
 		4CC48BD628B21CFA0044C977 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BD528B21CFA0044C977 /* ChatItem.swift */; };
 		4CFC953D28BA1FAE00A2AC53 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC953C28BA1FAE00A2AC53 /* ContactItem.swift */; };
+		4CFC954128BA20F200A2AC53 /* SettingsHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC953E28BA20F200A2AC53 /* SettingsHeaderItem.swift */; };
+		4CFC954228BA20F200A2AC53 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC953F28BA20F200A2AC53 /* SettingsItem.swift */; };
+		4CFC954328BA20F200A2AC53 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC954028BA20F200A2AC53 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +29,6 @@
 		4CC48BB828B20FC50044C977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CC48BBA28B20FC70044C977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC48BBD28B20FC70044C977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4CC48BC928B211A30044C977 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4CC48BCB28B211B00044C977 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		4CC48BCD28B211BD0044C977 /* CallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsView.swift; sourceTree = "<group>"; };
 		4CC48BCF28B211C50044C977 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
@@ -35,6 +36,9 @@
 		4CC48BD328B2195F0044C977 /* OnlineUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersView.swift; sourceTree = "<group>"; };
 		4CC48BD528B21CFA0044C977 /* ChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
 		4CFC953C28BA1FAE00A2AC53 /* ContactItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactItem.swift; sourceTree = "<group>"; };
+		4CFC953E28BA20F200A2AC53 /* SettingsHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsHeaderItem.swift; path = ../../../../ChatUI/ChatUI/Module/Settings/SettingsHeaderItem.swift; sourceTree = "<group>"; };
+		4CFC953F28BA20F200A2AC53 /* SettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsItem.swift; path = ../../../../ChatUI/ChatUI/Module/Settings/SettingsItem.swift; sourceTree = "<group>"; };
+		4CFC954028BA20F200A2AC53 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = ../../../../ChatUI/ChatUI/Module/Settings/SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 		4CC48BC528B211810044C977 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				4CC48BC928B211A30044C977 /* SettingsView.swift */,
+				4CFC953E28BA20F200A2AC53 /* SettingsHeaderItem.swift */,
+				4CFC953F28BA20F200A2AC53 /* SettingsItem.swift */,
+				4CFC954028BA20F200A2AC53 /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -202,13 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC48BD028B211C50044C977 /* ChatsView.swift in Sources */,
-				4CC48BCA28B211A40044C977 /* SettingsView.swift in Sources */,
 				4CC48BD428B2195F0044C977 /* OnlineUsersView.swift in Sources */,
 				4CC48BCE28B211BD0044C977 /* CallsView.swift in Sources */,
+				4CFC954228BA20F200A2AC53 /* SettingsItem.swift in Sources */,
 				4CC48BD228B217B80044C977 /* SearchView.swift in Sources */,
 				4CFC953D28BA1FAE00A2AC53 /* ContactItem.swift in Sources */,
 				4CC48BB928B20FC50044C977 /* ContentView.swift in Sources */,
+				4CFC954128BA20F200A2AC53 /* SettingsHeaderItem.swift in Sources */,
 				4CC48BB728B20FC50044C977 /* SimpleChatUiApp.swift in Sources */,
+				4CFC954328BA20F200A2AC53 /* SettingsView.swift in Sources */,
 				4CC48BCC28B211B00044C977 /* ContactsView.swift in Sources */,
 				4CC48BD628B21CFA0044C977 /* ChatItem.swift in Sources */,
 			);
