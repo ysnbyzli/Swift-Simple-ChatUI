@@ -18,6 +18,7 @@
 		4CC48BD228B217B80044C977 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BD128B217B80044C977 /* SearchView.swift */; };
 		4CC48BD428B2195F0044C977 /* OnlineUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BD328B2195F0044C977 /* OnlineUsersView.swift */; };
 		4CC48BD628B21CFA0044C977 /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC48BD528B21CFA0044C977 /* ChatItem.swift */; };
+		4CFC953D28BA1FAE00A2AC53 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC953C28BA1FAE00A2AC53 /* ContactItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4CC48BD128B217B80044C977 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		4CC48BD328B2195F0044C977 /* OnlineUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersView.swift; sourceTree = "<group>"; };
 		4CC48BD528B21CFA0044C977 /* ChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
+		4CFC953C28BA1FAE00A2AC53 /* ContactItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				4CC48BCB28B211B00044C977 /* ContactsView.swift */,
+				4CFC953C28BA1FAE00A2AC53 /* ContactItem.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				4CC48BD428B2195F0044C977 /* OnlineUsersView.swift in Sources */,
 				4CC48BCE28B211BD0044C977 /* CallsView.swift in Sources */,
 				4CC48BD228B217B80044C977 /* SearchView.swift in Sources */,
+				4CFC953D28BA1FAE00A2AC53 /* ContactItem.swift in Sources */,
 				4CC48BB928B20FC50044C977 /* ContentView.swift in Sources */,
 				4CC48BB728B20FC50044C977 /* SimpleChatUiApp.swift in Sources */,
 				4CC48BCC28B211B00044C977 /* ContactsView.swift in Sources */,
